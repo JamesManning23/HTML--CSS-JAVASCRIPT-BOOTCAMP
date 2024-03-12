@@ -1,0 +1,87 @@
+/* * {
+    background-color: red;
+} */
+
+/* This is a Universal Selector that selects ALL ELEMENTS IN THE HTML DOCUMENT */
+
+
+/* h1 { Element Selector selects every instance of a element in the document
+    color: blue;
+    background-color: red;
+
+}
+/*  */
+
+/* /* #p1 {
+    color: green;
+    background-color: chartreuse; */
+
+
+/* id selector - # - will select element with the corrosponding ID Value. */
+
+
+/* p {
+    color: red;
+    background-color: wheat;
+} */
+
+
+
+/* .Paragraph {
+    background-color: cadetblue;
+} */
+
+
+/* #p1 {
+    color: green;
+    background-color: chartreuse;
+
+} */
+
+
+/* .Paragraph {
+    background-color: crimson;
+} */
+
+
+/* classs selector - will select all elemenrs in the corresponding class. CSS also reads top to bottom so the most recent declaration will be applied */
+
+
+/* 
+h2,
+h3,
+p,
+{
+color: red;
+} */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Bungee Spice', sans-serif;
+    margin: 0%;
+}
+
+/* ^ copied from google, font name in quotation marks */
+
+* {
+    text-align: center;
+    margin: 0%;
+}
+
+div {
+    background-color: #22a559);
+    color: white;
+    border: 5px solid black;
+    margin-bottom: 50;
+    padding: 50px;
+
+}
+
+
+/* /* border sits around the content and padding. can also be invisible
+margin adds space between the element and surrounding elements 
+padding spearates the content and the border, adds space beween the content and border of the element.
+/* */

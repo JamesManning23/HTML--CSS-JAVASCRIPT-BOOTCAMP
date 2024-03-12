@@ -1,0 +1,162 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* defining a animation below. */
+/* @keyframes animation1 {
+    from {
+        background: red;
+    }
+
+    to {
+        background: blue;
+    }
+} */
+
+/* linking animation to our defined animation name and assigning features to it. by defualt it will not load. 
+Animation fill mode sets how the animation behaves after it is finished. forward meansthat the animation will retain the styles that is set by the last frame of the animation. backwards will retain the style that is set by the first frame and only takes effect if there is a delay. both will inherit the style the animationtakes at the beginning and after the animation ends excluding the default styling.  animation delay will delay how long before the animation plays. */
+/* .animationOne {
+    background-color: deeppink;
+    animation-name: animation1;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards; */
+
+
+/* can have any perecentage value. animation iteration count defines the number of times the animation is played. */
+/* 
+@keyframes animation2 {
+    0% {
+        background-color: aqua;
+    }
+
+    25% {
+        background-color: blueviolet;
+    }
+
+    50% {
+        background-color: darkblue;
+    }
+
+    75% {
+        background-color: slategray;
+    }
+
+    100% {
+        background-color: gold;
+    } */
+
+
+/* .animationTwo {
+    animation-name: animation2;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation3 {
+    from {
+        left: -30%;
+    }
+
+    to {
+        left: 100%;
+    }
+} */
+
+/* animation timing function will set how a animation progresses through the duration of each cycle:
+ease- increases in speed towards the middle and slows towards the end
+linear- consistent speed throughout the animation
+ease in- starts off slowky, increases in speed as the animation progresses
+ease-in-out -  
+cubic bezier - can define a custom timing function for the animation 
+
+animation direction. defines which direction you want the animation to go in. you can have multiple animations assigned to 1 element*/
+
+/* .animationThree {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: animation3, animation2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse; */
+
+
+
+
+
+
+
+/* Task Completed Below:
+1. */
+
+/* 
+@keyframes task1 {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: blueviolet;
+        font-size: 2rem;
+        transform: translate(500px, 300px);
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+
+.taskOne {
+    background-color: turquoise;
+    animation-name: task1;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100px);
+} */
+/* 2. */
+
+
+@keyframes example2 {
+    25% {
+        top: 0vh;
+        background-color: aqua;
+    }
+
+    50% {
+        top: 25vh;
+    }
+
+    75% {
+        top: 50vh;
+    }
+
+    100% {
+        top: 75vh;
+        background-color: black;
+    }
+
+}
+
+div {
+    background-color: crimson;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: example2;
+    animation-delay: 3s;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+
+
+}

@@ -1,0 +1,78 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* CSS Reset - Font -Family and Color Set */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+/* Styling for grid-item divs to make alternating colours */
+.container div {
+    background-color: #0f4c5c;
+    padding: 1em;
+}
+
+.container div:nth-child(even) {
+    background-color: #fb8b24;
+}
+
+
+/* CSS GRID CODE BELOW */
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 150px 320px 320px 150px;
+    gap: 0.25rem;
+
+
+
+    grid-template-areas:
+        'header header header header'
+        'main main main aside'
+        'main main main section'
+        'footer footer footer footer'
+    ;
+
+
+
+}
+
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 250px;
+}
+
+.aside {
+    grid-area: aside;
+
+}
+
+.section {
+    grid-area: section;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.main div {
+    background-color: aquamarine;
+    border: 2px solid black;
+
+}

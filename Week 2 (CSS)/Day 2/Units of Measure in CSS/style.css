@@ -1,0 +1,62 @@
+/* MDN REFERENCE: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units */
+
+/* FONT IMPORT */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* BASE STYLING - FONT and COLOUR */
+body {
+    background: #0f4c5c;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+
+.intro {
+    max-width: 80%;
+    background: #07262d;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.intro h1 {
+    text-decoration: underline
+}
+
+.em {
+    margin: 20px auto;
+    max-width: 80%;
+    background: #07262d;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+    color: gold;
+    font-size: 20px;
+}
+
+.em h2 {
+    text-decoration: underline;
+}
+
+.rem {
+    margin: 20px auto;
+    max-width: 80%;
+    background: #07262d;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+    color: cyan
+}
+
+.rem h2 {
+    text-decoration: underline;
+}
+
+
+
+
+.em p {
+    font-size: 1em
+}

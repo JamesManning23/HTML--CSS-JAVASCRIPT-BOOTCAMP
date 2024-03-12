@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+/* import font style and set a base margin and padding of 0 to counter chrome default. */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+}
+
+/* all sections of the webpage have been given a class of grid so they can be displayed in a grid of 12 even columns */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+
+/* fixed header to the top and given it a lgbt gradient, the z-index of 100 gives it prioroty to appear over any other text. */
+header {
+    position: fixed;
+    top: 0%;
+    padding: 5px;
+    background-image: linear-gradient(to right, rgb(237, 34, 36), rgb(243, 91, 34), rgb(249, 150, 33), rgb(245, 193, 30), rgb(241, 235, 27) 27%, rgb(241, 235, 27), rgb(241, 235, 27) 33%, rgb(99, 199, 32), rgb(12, 155, 73), rgb(33, 135, 141), rgb(57, 84, 165), rgb(74, 44, 117), rgb(147, 40, 142));
+    z-index: 10;
+    height: 120px;
+}
+
+/* defining the height and width of the logo. */
+header img {
+    width: 170px;
+    height: 120px;
+    position: relative;
+
+}
+
+/* defined where the nav bar will be in the grid. */
+header nav {
+
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 13;
+    align-self: center;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 13px;
+    width: 100vw;
+}
+
+/* added a hover effect to the nav icons */
+.one:hover {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    box-shadow: 5px 5px 8px black;
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+/* styled the naigation links and evenly spaced them out on the webpage. */
+header nav a {
+    background: black text-align: center;
+    text-decoration: none;
+    width: 200px;
+    height: 110px;
+    border: solid;
+    background-size: cover;
+    box-shadow: black 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-30px);
+    position: relative;
+    bottom: 10px;
+}
+
+/* the paragraph element is displayed as inline so it can sit on the same line as the other links. */
+header nav p {
+    display: inline;
+}
+
+/* added a background image to the main section of the website (TBC) */
+main .video {
+    position: relative;
+    width: 100vw;
+}
+
+main p {
+    position: absolute;
+    top: 60vh;
+    left: 80vh;
+    font-size: 10rem;
+    background-color: aqua;
+    color: crimson;
+
+    font-family: 'Work Sans', sans-serif;
+}

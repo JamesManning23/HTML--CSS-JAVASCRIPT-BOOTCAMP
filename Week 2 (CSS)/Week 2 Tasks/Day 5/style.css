@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+nav {
+    position: sticky;
+    background-image: linear-gradient(to right, rgb(237, 34, 36), rgb(243, 91, 34), rgb(249, 150, 33), rgb(245, 193, 30), rgb(241, 235, 27) 27%, rgb(241, 235, 27), rgb(241, 235, 27) 33%, rgb(99, 199, 32), rgb(12, 155, 73), rgb(33, 135, 141), rgb(57, 84, 165), rgb(74, 44, 117), rgb(147, 40, 142));
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 40px;
+    background-size: cover;
+
+}
+
+
+.link {
+    text-decoration: none;
+    text-align: center;
+    font-size: 2.75rem;
+    background-image: linear-gradient(to right, rgb(237, 34, 36), rgb(243, 91, 34), rgb(249, 150, 33), rgb(245, 193, 30), rgb(241, 235, 27) 27%, rgb(241, 235, 27), rgb(241, 235, 27) 33%, rgb(99, 199, 32), rgb(12, 155, 73), rgb(33, 135, 141), rgb(57, 84, 165), rgb(97, 55, 155), rgb(147, 40, 142));
+    color: black;
+    border-radius: 200px;
+    height: 65 px;
+    width: 185px;
+    border-width: thick;
+    box-shadow: 50px;
+    background-size: cover;
+    border: solid;
+}
+
+#link1 a {
+    background-image: linear-gradient(to right, rgb(237, 34, 36), rgb(243, 91, 34), rgb(249, 150, 33), rgb(245, 193, 30), rgb(241, 235, 27) 27%, rgb(241, 235, 27), rgb(241, 235, 27) 33%, rgb(99, 199, 32), rgb(12, 155, 73), rgb(33, 135, 141), rgb(57, 84, 165), rgb(97, 55, 155), rgb(147, 40, 142));
+    color: black;
+    border-radius: 200px 200px;
+    font-size: 2.75rem;
+    text-align: justify;
+    text-decoration: none;
+    width: 185px;
+    border: solid;
+    background-size: cover;
+
+
+}
+
+nav img {
+    width: 110px;
+    height: 85px;
+}
+
+
+main {
+    background-image: url(Assets/boystownstill3.jpeg);
+    background-size: cover;
+    padding: 150px;
+    position: relative;
+    bottom: 180px;
+    display: inline-block;
+    height: 55vh;
+}
+
+main p {
+    font-size: 1.5rem;
+    background: linear-gradient(to right, #FF0018, #FFA52C, #FFD700, #008000, #0000FF, #4B0082);
+    -webkit-background-clip: text;
+    /* For Safari */
+    color: transparent;
+    /* Make the text transparent so that the gradient shows through */
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(11.5px);
+    border-radius: 10px;
+    border: 5px solid rgba(208, 0, 255, 0.18);
+    position: relative;
+    bottom: 130px;
+    display: inline-block;
+}
+
+iframe {
+    position: relative;
+    right: 125px;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+main img {
+    position: relative;
+    left: 40vw;
+    bottom: 6vh;
+    width: 200px;
+    height: 200px;
+
+
+}
+
+
+
+
+
+section {
+    background-image: url(Assets/GettyImages-558238961.jpeg);
+    height: 0%;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    bottom: 230px;
+}
+
+section p {
+    color: aqua;
+}

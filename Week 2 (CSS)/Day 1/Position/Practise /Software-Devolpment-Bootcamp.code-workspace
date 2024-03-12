@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../GitHub/Software-Devolpment-Bootcamp"
+		},
+		{
+			"path": "../../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Full Stack Bootcamp"
+	}
+}

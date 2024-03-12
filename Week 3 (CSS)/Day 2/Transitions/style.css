@@ -1,0 +1,19 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: darkmagenta;
+    border-radius: 50%;
+    margin: 200px auto;
+    transition-property: width, height, background-color;
+    transition-duration: 2s;
+    transition-delay: 4s;
+}
+
+/* transition property defines which aspects of the element you are transitioning, transition duration defines how long a transition will last. */
+
+
+div:hover {
+    width: 400px;
+    height: 400px;
+    background-color: goldenrod;
+}

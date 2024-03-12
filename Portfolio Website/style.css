@@ -1,0 +1,11 @@
+.container-fluid header {
+    background-color: aqua;
+}
+
+.james {
+    position: relative;
+    bottom: 45px;
+    left: 25vw;
+    height: 50vh;
+    
+}

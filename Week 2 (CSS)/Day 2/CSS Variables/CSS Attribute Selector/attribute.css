@@ -1,0 +1,8 @@
+a[target="_self"] {
+    color: green;
+}
+
+
+[alt~="cute"] {
+    border: solid 10px black;
+}

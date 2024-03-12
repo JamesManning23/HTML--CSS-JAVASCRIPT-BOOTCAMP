@@ -1,0 +1,46 @@
+#box1 {
+    height: 200px;
+    width: 200px;
+    background-color: dodgerblue;
+    border: solid 2px black;
+
+}
+
+#box2 {
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    border: solid 2px black;
+}
+
+/* Position Code Below */
+/* Static is the default position. Applied to all elements. */
+/* Relative will offset the element from its starting position.  */
+
+/* #box1 {
+    position: relative;
+    left: 100px;
+} */
+
+
+#box1 {
+    position: sticky;
+    top: 0;
+
+
+
+}
+
+
+/* Elements with a position value of absolute search for a parent element that has a position which is not static. if a parent element without static position csn not be found, the element will position itself absolutely in the browser webpage */
+
+
+/* Fixed- fixes itseld to a specifc position in the browser */
+
+/* sticky -  */
+
+#box2 {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}

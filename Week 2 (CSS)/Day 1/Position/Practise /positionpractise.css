@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+.box {
+    font-size: 2rem;
+    background-color: pink;
+    height: 100px;
+    width: 300px;
+    padding: 16px;
+    margin: 0;
+    border: solid 5px black;
+    box-sizing: border-box;
+    position: sticky;
+
+
+}
+
+.box2 {
+    font-size: 2rem;
+    background-color: pink;
+    height: 100px;
+    width: 300px;
+    padding: 16px;
+    margin: 0;
+    border: solid 5px black;
+    box-sizing: border-box;
+    position: absolute;
+
+}
+
+p {
+    text-align: left;
+}

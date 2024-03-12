@@ -1,0 +1,9 @@
+:root {
+    --darkBlue: #A2AEBB;
+    --spacing: 10px;
+}
+
+
+.one {
+    background-color: var(--darkBlue);
+    color: var(--spacing);

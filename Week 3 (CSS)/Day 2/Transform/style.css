@@ -1,0 +1,24 @@
+div {
+    background-color: hsl(200, 70%, 30%);
+    width: 200px;
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+
+}
+
+/* css transform allows you to rotare, scale, move, skew elements
+rotate- can be done by the value of turn (0.25turn) or degrees (90deg)
+scale - scaled up bu passing it number value, 2 values can be passed at the same time the first is a x value and then the next is a  value
+translate - used to move a element, same applies with scale, if 2 values are passed through the first is the x value and the next is the y value. minus values can be passed to the x and y value to move the element is reverse.
+transform properties csm be combined all on a single line of css.
+
+*/
+
+div {
+    transform: translate(100px) scale(3);
+}
